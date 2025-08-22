@@ -1,0 +1,25 @@
+{
+  "id": "Python",
+  "name": "Python",
+  "publisher": "Bitsaur",
+  "description": "Syntax highlighting for Python",
+  "author": "Bitsaur",
+  "version": "1.0.0",
+  "type": "python",
+  "definitions": {
+    "languages": [
+      {
+        "id": "python",
+        "name": "Python",
+        "extensions": [ "py", "pyi" ],
+        "rules": {
+          "type": "tree-sitter",
+          "color": "queries/color.scm",
+          "pinLine": "queries/pin_line.scm",
+          "indent": "queries/indent.scm",
+          "fold": "queries/fold.scm"
+        }
+      }
+    ]
+  }
+}
